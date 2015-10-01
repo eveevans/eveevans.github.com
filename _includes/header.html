@@ -1,8 +1,8 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{{ site.baseurl }}/">T</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -13,7 +13,10 @@
         </svg>
       </a>
 
+      <!-- @TODO: Usar menu con solo boton de hamburguesa: http://themeforest.net/item/monoid-jekyll-blog-theme/full_screen_preview/11802418  -->
       <div class="trigger">
+        <a class="page-link" href="{{ site.baseurl }}/">Inicio</a>
+
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>

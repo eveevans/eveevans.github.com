@@ -4,11 +4,15 @@
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
-    background: #fafafa;
+    // background: #fafafa;
     min-height: 56px;
     padding: 15px  0;
     margin-bottom: 20px;
-    visibility: hidden;
+    // visibility: hidden;
+    border-bottom: 1px solid #fafafa;
+    // padding: 0 10px;
+    padding-left: 20px; 
+    padding-right: 20px;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -19,11 +23,13 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
+    // float: left;
+    background: #333;
+    padding: 20px 15px;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fafafa;
     }
 }
 
