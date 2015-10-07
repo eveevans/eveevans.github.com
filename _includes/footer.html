@@ -2,14 +2,17 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Erick Vanegas</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
-        <p class="text">{{ site.description }}</p>
-      </div>
 
-      <div class="footer-col  footer-col-2">
+        <div class='cover-profile-avatar'>
+          <img src="{{site.baseurl}}/assets/img/avatar.jpg" alt='EV' />
+        </div>
+
+        <h2 class="footer-heading">Erick Vanegas</h2>
+        <p class="text">{{ site.bio }}</p>
+
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -42,10 +45,15 @@
         </ul>
       </div>
 
-      <div class="footer-col  footer-col-3">        
+      <div class="footer-col  footer-col-2">
+        &nbsp;
+      </div>
+
+      <div class="footer-col  footer-col-3">      
+        <h2 class="footer-heading">&nbsp;</h2>
+
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="{{site.baseurl}}/">{{ site.title }}</a></li>
           <li><p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p></li>      
         </ul>
       </div>

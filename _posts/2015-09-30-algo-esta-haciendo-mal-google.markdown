@@ -3,6 +3,7 @@ layout: post
 title:  "Algo está haciendo mal Google"
 date:   2015-09-30 19:56:16
 categories: opinion
+image: '2015-09-30-algo-esta-haciendo-mal-google.jpg'
 <!-- published: false -->
 ---
 
