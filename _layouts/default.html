@@ -5,6 +5,11 @@
 
   <body>
 
+  <div class='menu-side'>
+   {% include menu-side.html %}
+  </div>
+
+  <div class='body-content'>
     {% include header.html %}
 
     <div class="page-content">
@@ -14,6 +19,14 @@
     </div>
 
     {% include footer.html %}
+
+    </div>
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+
+
+    <script src='{{ "/js/zepto.min.js" | prepend: site.baseurl }}'></script>
+    <script src='{{ "/js/main.js" | prepend: site.baseurl }}'></script>
 
   </body>
 
