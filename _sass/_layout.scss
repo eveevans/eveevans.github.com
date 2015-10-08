@@ -31,7 +31,20 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 440px;
+    overflow: hidden;
     // height: 150px;
+
+    &:after {
+        content: '';
+        background: linear-gradient(#111    , transparent);
+        position: absolute;
+        z-index: 1;
+        top: -75px;
+        left: 30px;
+        width: 100%;
+        height: 95px;
+        transform: rotate(7deg);
+    }
 
     @include media-query($on-laptop) {
         height: 370px;
@@ -44,25 +57,20 @@
     @include media-query($on-mobile) {
         height: 130px;
     }
+
+    .site-nav .page-link {
+        color: #fafafa;
+
+        &:hover {
+            border-color: #fafafa;
+        }
+    }
 }
 
-// @media (min-width: 768px) {
-//     .site-header-with-image {
-//       height: 300px;
-//     }
-// }
-
-// @media (min-width: 992px) {
-//     .site-header-with-image {
-//       height: 390px;
-//     }
-// }
-
-// @media (min-width: 1200px) {
-//     .site-header-with-image {
-//       height: 460px;
-//     }
-// }
+.menu-space {
+    position: relative;
+    z-index: 99;
+}
 
 .site-title {
     font-size: 26px;
@@ -90,6 +98,13 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
+        text-decoration: none;
+        padding: 10px 0;
+        border-top: 1px solid transparent;
+
+        &:hover {
+            border-color: inherit;
+        }
 
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
