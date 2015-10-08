@@ -1,4 +1,5 @@
-<header class="site-header {% if page.image %}site-header-with-image{% endif %}" style="background-image: url({{site.baseurl}}/images/{{page.image}})">
+<header class="site-header {% if page.image %}site-header-with-image{% endif %}" 
+  {% if page.image %}  style="background-image: url( {{ page.image | prepend: '/images/' | prepend: site.baseurl }} )" {% endif %} >
 
   <div class="menu-space">
 
@@ -13,7 +14,6 @@
         </svg>
       </a>
 
-      {% comment %} @TODO: Usar menu con solo boton de hamburguesa: http://themeforest.net/item/monoid-jekyll-blog-theme/full_screen_preview/11802418 {% endcomment %}
       <div class="trigger">
         <a class="page-link" href="{{ site.baseurl }}/">Blog</a>
 
@@ -26,5 +26,7 @@
     </nav>
 
   </div>
+
+  <!-- @TODO: Usar una variable en post, para poner una leyenda de la foto y los créditos, por ejemplo en la XYZ -->
 
 </header>

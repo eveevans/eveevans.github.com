@@ -1,0 +1,18 @@
+---
+layout: post
+title:  XYZ
+date:   2015-05-30
+categories: proyectos
+image: 'xyz.jpg'
+<!-- published: false -->
+---
+
+Hablar un poco sobre los proyectos del Kinect, y la colaboracion con Managua Labs, el proyecto que se hizo en Masaya y en la casa de los franceses.
+
+Un poco sobre el setup con el Kinect, los lasers, el controlador midi. 
+
+<!-- @TODO: Encontrar una mejor manera de agregar embeds en markdown -->
+<iframe src="https://player.vimeo.com/video/113230197" width="740" height="381" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/113230197">XYZ (Masaya)</a> from <a href="https://vimeo.com/user3235877">Ricardo Gonz&aacute;lez-Mej&iacute;a</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+También introducir un poco lo que se viene en Enero, sobre el proyecto Ruben Darío. Usar imágenes adicionales dentro del post. 

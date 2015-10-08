@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Aqui hablar un poco sobre mi, quien soy, que hago, en que estoy involucrado. Quizas sea bueno hablar un poco sobre Kakao y poner referencias sobre lo que estmaos haciendo ahi. [kakaomedia.com][kakao]
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Tambien sería bueno hablar sobre las veces de speaker en Ruby, Wordpress, Desarrollo, etc. 
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Alguna despedida quizas? y escribirme a **eveevansml [at] gmail.com**
+
+
+
+[kakao]:        http://kakaomedia.com

@@ -1,9 +1,13 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Restart"
 date:   2015-04-27 19:56:16
-categories: jekyll update
+categories: update
 ---
+
+
+Hablar sobre el reinicio del Blog. por que Test Human Suits. La historia atrás de todo esto y demás cosas. Igualmente creo que la fecha la debería cambiar por algo mas cercano a la realidad. 
+
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
