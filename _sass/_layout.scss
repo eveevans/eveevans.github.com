@@ -30,20 +30,20 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #111;
     height: 440px;
     overflow: hidden;
     // height: 150px;
 
-    &:after {
+    &:before {
         content: '';
-        background: linear-gradient(#111    , transparent);
+        background: linear-gradient(3deg,transparent,transparent,#111);
         position: absolute;
-        z-index: 1;
-        top: -75px;
-        left: 30px;
+        // z-index: 1;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 95px;
-        transform: rotate(7deg);
     }
 
     @include media-query($on-laptop) {
@@ -69,7 +69,7 @@
 
 .menu-space {
     position: relative;
-    z-index: 99;
+    // z-index: 99;
 }
 
 .site-title {
