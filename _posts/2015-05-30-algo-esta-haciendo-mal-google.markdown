@@ -19,43 +19,43 @@ Hace poco estaba conversando con un compañero del [Google Developer Group][gdg_
 
 ### h3
 
-### Mataron Angular 
+## Mataron Angular 
 
 Lo partieron por la mitad y ahora medio mundo está escapando. 
 Y si no miren Ember, hace poco hicieron un cambio de versión mayor, y migrar una App no es nada doloroso. 
 React, está bajo la promesa de FB de que ellos lo usan y tendra larga vida[^1]
 
-### Polymer que? 
+## Polymer que? 
 
 Polymer es un fracaso y no crecerá mas (a pesar de ser 1.0 en el io), y si no: nombrenme un proyecto serio que no esté vinculado a Google que lo esté utilizando. 
  
-### AppEngine
+## AppEngine
 
 Se creyeron los mejores, y se estancaron. Solo permitir Java y Python?, almacenar en Bigtable[^2]
 AWS, Redshift, Rackspace y hasta Azure crecieron gracias a un ecosistema abierto, donde te permiten instalar lo que te de la gana. 
 
 
-### Cerraron Google Code y migraron a Github
+## Cerraron Google Code y migraron a Github
 
 Gran desición, pero demuestra que a veces no pueden competir haciendo mil cosas en contra de empresas que se enfocan en hacer bien algo. `@TODO: mejorar esa línea` 
 
-### GO ###
+## GO ##
 
 bien gracias. 
 
-### Chrome OS ###
+## Chrome OS ##
 
 Fracasó. Quizas muy futurista. Ahora tenemos Chromebooks con Android.
 
-### Redes Sociales? ###
+## Redes Sociales? ##
 
 Un minuto de silencio por Google Wave, la copia de twitter (buzz), y próximamente Google Plus.
 
-### Anteojos ###
+## Anteojos ##
 
 Creo que cocinaban los ojos. 
 
-### Y? ###
+## Y? ##
 
 Si, sigue haciendo cosas bien, y apoderándose del mundo. (Aunque ahora necesitamos una frase a lo `Alphabet dont be evil` Con Android 
 solo espero que en algún momento maduren las herramientas. Pero es un proyecto acertado que de paso mató a todo SO que se estaba gestando ~~Alguien recuerda WebOS~~. Unifico a los fabricantes y les dejó el trabajo de hacer bien en lo que son buenos... hardware. 
