@@ -1,0 +1,13 @@
+---
+layout: null
+---
+
+/* TEAM */
+    Dev: {{ site.owner_name }}
+    Contact: {{ site.owner_email }}
+    Twitter: {{ site.twitter_username }}
+    Location: {{ site.owner_location }}
+
+/* SITE */
+    URL: {{ site.url }}
+    Components: Zepto, Jekyll
