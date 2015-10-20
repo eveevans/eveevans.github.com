@@ -49,7 +49,7 @@ Gran apuesta, quizas un poco adelantada a su época. Estan claros los beneficios
 
 No se hasta que punto evolucionará esto, pero ya podemos ver Chromebooks con Android.
 
-## Redes Sociales? ##
+## ¿Redes Sociales? ##
 
 Un campo en el que Google nunca ha podido terminar de calzar. Un minuto de silencio por [Google Wave][wave] y [Google Buzz][buzz]. El primero quizas fue demasiado futurista para su época, y el usuario medio nunca entendió, ocasionando que los únicos usuarios de la red eran los mismos Geeks de siempre. [Buzz][buzz] era una vil copia de Twitter, que Google intentó poner a la fuerza, pero que nunca tuvo auge.
 

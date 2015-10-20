@@ -7,6 +7,8 @@ image: 'xyz.jpg'
 <!-- published: false -->
 ---
 
+`Post en proceso`
+
 Hablar un poco sobre los proyectos del Kinect, y la colaboracion con Managua Labs, el proyecto que se hizo en Masaya y en la casa de los franceses.
 
 Un poco sobre el setup con el Kinect, los lasers, el controlador midi. 
