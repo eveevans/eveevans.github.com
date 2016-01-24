@@ -5,26 +5,25 @@ date:   2015-04-27 19:56:16
 categories: update
 ---
 
-`Post En proceso`
+Hace algunos años tenía un blog llamado Flasheves.com, que en realidad tenía bastantes visitas al día, pero por diferentes razones dejó de existir. Así que en 2015 me propuse a escribir de nuevo (conste que esta entrada la estoy escribiendo recien en 2016), y así fue como surgió [testhumansuits.com][testhumansuits].
 
-Hablar sobre el reinicio del Blog. por que Test Human Suits. La historia atrás de todo esto y demás cosas. Igualmente creo que la fecha la debería cambiar por algo mas cercano a la realidad. 
+### La primera reacción de todo mundo es: ¿Y por qué ese nombre? ###
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Todo se resume a que me gustan los nombres aleatorios que no tienen un significado razonable, pero que les podés encontrar miles de explicaciones. En realidad surgió como una broma en una aplicación que no tenía test suites, y que dijimos; *"ni modo serán human test suites"*, luego, al buscar el nombre me encontré con una banda llamada *human suits*, me gustó el concepto y lo fusioné con la broma. 
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+### ¿Qué hay de la tecnología? ###
 
-Jekyll also offers powerful support for code snippets:
+Antes mi blog estaba basado en [Wordpress][wordpress], sin embargo migré a [Jekyll][jekyll] por que es mucho más facil mantenerlo, es más rápido y no necesito preocuparme de mantener servidores ni actualizaciones. 
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+puts "Ademas me encanta la manera de escribir código de ejemplo"
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+Otra de mis opciones era [Tumblr][tumblr], pero quería tener mayor libertad sobre el código.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Iniciando en 2016 tengo el reto de escribir al menos una entrada al mes. Así que ¡Liberen al Kraken!
+
+[testhumansuits]: http://testhumansuits.com
+[wordpress]: https://wordpress.org/
+[tumblr]: https://www.tumblr.com
+[jekyll]: https://jekyllrb.com/
