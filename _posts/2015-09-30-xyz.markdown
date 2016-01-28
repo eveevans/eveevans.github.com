@@ -8,7 +8,7 @@ image: 'xyz.jpg'
 
 Hace algunos meses estuve colaborando con [MGA Lab][mgalab] en la creación de experiencias audiovisuales y surgió la idea de utilizar el Kinect para crear un [theremin][theremin] que además de hacer música, pudiera manipular otros objetos, lasers en este caso. 
 
-Para los que no sepan de [MGA Lab][mgalab], son un grupo de personas desquiciadas, con Ricardo Gonzales como lider, que hacen lo que ellos llaman arquitectura multi sensorial, donde básicamente combinan arte, arquitectura y tecnología, pura experimentación en términos hipster. 
+Para los que no sepan de [MGA Lab][mgalab], son un grupo de personas desquiciadas, con Ricardo González como lider, que hacen lo que ellos llaman arquitectura multi sensorial, donde básicamente combinan arte, arquitectura y tecnología, pura experimentación en términos hipster. 
 
 Iniciamos con la manipulación del [Xbox Kinect][kinect] para que pudiera ser ocupado por una computadora. Luego enviar señales del movimiento hacia aplicaciones que pudieran ejecutar acciones con esa información. Y así creamos un theremin que hacía sonidos con el movimiento de las manos y el cuerpo. Luego lo conectamos a una aplicación que permitía mover lasers con la misma información del movimiento corporal y finalmente lo proyectamos hacia una escultura de [MGA LAB][mgalab] llamada XYZ. 
 
