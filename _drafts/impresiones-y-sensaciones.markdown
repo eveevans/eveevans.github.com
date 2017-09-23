@@ -1,0 +1,48 @@
+---
+layout: post
+title:  Impresiones & Sensaciones
+date:   2017-09-22
+categories: proyectos
+image: 'impresiones-sensaciones.jpg'
+---
+
+Este un post que tenía pendiente desde hace más de un año, y es que en Abril del 2016, estuve colaborando nuevamente con [MGA Lab][mgalab] en la creación de una obra audiovisual. En esta ocasión ....
+
+<iframe src="https://player.vimeo.com/video/164806443" width="100%" height="380px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/164806443">Impresiones &amp; Sensaciones</a> from <a href="https://vimeo.com/user3235877">Ricardo Gonz&aacute;lez-Mej&iacute;a</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+
+
+
+Hace algunos meses estuve colaborando con [MGA Lab][mgalab] en la creación de experiencias audiovisuales y surgió la idea de utilizar el Kinect para crear un [theremin][theremin] que además de hacer música, pudiera manipular otros objetos, lasers en este caso. 
+
+Para los que no sepan de [MGA Lab][mgalab], son un grupo de personas desquiciadas, con Ricardo González como lider, que hacen lo que ellos llaman arquitectura multi sensorial, donde básicamente combinan arte, arquitectura y tecnología, pura experimentación en términos hipster. 
+
+Iniciamos con la manipulación del [Xbox Kinect][kinect] para que pudiera ser ocupado por una computadora. Luego enviar señales del movimiento hacia aplicaciones que pudieran ejecutar acciones con esa información. Y así creamos un theremin que hacía sonidos con el movimiento de las manos y el cuerpo. Luego lo conectamos a una aplicación que permitía mover lasers con la misma información del movimiento corporal y finalmente lo proyectamos hacia una escultura de [MGA LAB][mgalab] llamada XYZ. 
+
+El proyecto lo presentamos en el parque de Masaya, a continuación un video con un resumen de la experiencia:
+
+El acto se separó entre una presentación de la escultura y música ambiental en vivo, y un espacio donde las personas que llegaron al lugar pudieron experimental el uso del theremin y la manipulación de los lasers sobre la escultura con sus propios cuerpos. Si quieren más fotos y una descripción más esotérica y arquitectónica del evento, los invito a leer [la entrada en el blog de MGA Lab][mgalab_xyz].
+
+Si estan interesados en conocer más detalles técnicos de la implementación, me pueden dejar sus comentarios en la entrada, a continuación intentaré abordarlos de manera rápida:
+
+Se ocupó un [Kinect para Xbox 360][kinect], con un cable adaptador para USB. Luego se configuró [ni mate][nimate] para enviar señales mediante el protocolo [OSC][osc], con cada parte habilitada del cuerpo, en este caso, manos, cabeza y tronco. Posteriormente las señales eran procesadas mediante [loopMIDI][loopmidi] para crear un dispositivo virtual que pudiera ser reconocido en otros programas como controlador MIDI. 
+
+Finalmente [FL Studio][flstudio] recibia la información del dispositivo virtual y controlaba la distorsión y sonido de instrumentos para hacer la música del theremin. De manera similar [Lasershow Designer QuickShow][quickshow] era el encargado de la manipulación del hardware de  los lasers, y recibía la información de loopMIDI para manipular las dimensiones y coordenadas de proyección sobre la escultura. 
+
+Lo mejor de todo, es que este tipo de experimentos a penas comienzan, y seguimos explorando algunas cosas, tanto así que en Abril 2015, MGA LAB realizó una presentación en la [III tertulia de arte con Geff & Juliette Vilbert, que te recomiendo ver aquí][fyac].
+
+Para el 2016 estamos planeando, en colaboración con otros artístas y especilistas en diferentes áreas, un acto llamado ["Impresiones y sensaciones"][impresiones_y_sensaciones], donde también haremos uso del Kinect sumado a otras tecnologías como [Processing][processing] y Arena. 
+
+[mgalab]: http://managualab.com/
+[mgalab_xyz]: http://managualab.com/2014/12/01/xyz/
+[theremin]: https://en.wikipedia.org/wiki/Theremin
+[kinect]: https://en.wikipedia.org/wiki/Kinect
+[nimate]: https://ni-mate.com/
+[osc]: https://en.wikipedia.org/wiki/Open_Sound_Control
+[loopmidi]: http://www.tobias-erichsen.de/software/loopmidi.html
+[flstudio]: https://www.image-line.com/flstudio/
+[quickshow]: https://pangolin.com/QS/
+[fyac]: http://managualab.com/2015/04/16/ano-de-la-luz-fyac/
+[impresiones_y_sensaciones]: https://www.facebook.com/events/1462365040735021/
+[processing]: https://processing.org/
