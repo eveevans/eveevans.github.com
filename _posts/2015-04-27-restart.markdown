@@ -1,8 +1,9 @@
 ---
+title: Restart
+date: 2015-04-27 19:56:16 Z
+categories:
+- update
 layout: post
-title:  "Restart"
-date:   2015-04-27 19:56:16
-categories: update
 ---
 
 Hace algunos años tenía un blog llamado Flasheves.com, que en realidad tenía bastantes visitas al día, pero por diferentes razones dejó de existir. Así que en 2015 me propuse a escribir de nuevo (conste que esta entrada la estoy escribiendo recien en 2016), y así fue como surgió [testhumansuits.com][testhumansuits].

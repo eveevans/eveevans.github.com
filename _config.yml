@@ -1,19 +1,27 @@
-# Site settings
+---
 title: Testhumansuits.com
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 twitter_username: eveevans
-github_username:  eveevans
+github_username: eveevans
 owner_name: Erick Vanegas
 owner_email: eveevans [at] gmail.com
 owner_location: Managua, Nicaragua
-bio: > # this means to ignore newlines until "baseurl:"
-  Co-founder at KakaoMedia.com and TickeTango.com, Web App Developer, 
-  Ruby & Open Source enthusiastic.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://testhumansuits.com" # the base hostname & protocol for your site
-description: > # this means to ignore newlines until "baseurl:"
-  Blog personal de Erick Vanegas 
-  (a.k.a. @eveevans:  Web App Developer, Ruby & Open Source enthusiastic.) 
-  sobre tecnología, Ruby on Rails, Javascript, jekyll, AWS, 
-  e-commerce, wordpress.
-# Build settings
+bio: 'Co-founder at KakaoMedia.com and TickeTango.com, Web App Developer,  Ruby &
+  Open Source enthusiastic.
+
+'
+baseurl: ''
+url: http://testhumansuits.com
+description: 'Blog personal de Erick Vanegas  (a.k.a. @eveevans:  Web App Developer,
+  Ruby & Open Source enthusiastic.)  sobre tecnología, Ruby on Rails, Javascript,
+  jekyll, AWS,  e-commerce, wordpress.
+
+'
 markdown: kramdown

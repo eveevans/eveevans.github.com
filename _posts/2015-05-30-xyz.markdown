@@ -1,9 +1,10 @@
 ---
+title: XYZ
+date: 2015-05-30 00:00:00 Z
+categories:
+- proyectos
 layout: post
-title:  XYZ
-date:   2015-05-30
-categories: proyectos
-image: 'xyz.jpg'
+image: xyz.jpg
 ---
 
 Hace algunos meses estuve colaborando con [MGA Lab][mgalab] en la creación de experiencias audiovisuales y surgió la idea de utilizar el Kinect para crear un [theremin][theremin] que además de hacer música, pudiera manipular otros objetos, lasers en este caso. 

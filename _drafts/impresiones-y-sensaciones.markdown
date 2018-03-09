@@ -1,9 +1,10 @@
 ---
+title: Impresiones & Sensaciones
+date: 2017-09-22 00:00:00 Z
+categories:
+- proyectos
 layout: post
-title:  Impresiones & Sensaciones
-date:   2017-09-22
-categories: proyectos
-image: 'impresiones-sensaciones.jpg'
+image: impresiones-sensaciones.jpg
 ---
 
 Este un post que tenía pendiente desde hace más de un año, y es que en Abril del 2016, estuve colaborando nuevamente con [MGA Lab][mgalab] en la creación de una obra audiovisual. En esta ocasión ....

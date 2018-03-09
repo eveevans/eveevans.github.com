@@ -1,12 +1,12 @@
 ---
+title: Algo está haciendo mal Google
+date: 2015-09-30 19:56:16 Z
+categories:
+- opinion
 layout: post
-title:  "Algo está haciendo mal Google"
-date:   2015-09-30 19:56:16
-categories: opinion
-image: '2015-09-30-algo-esta-haciendo-mal-google.jpg'
-<!-- published: false -->
+image: 2015-09-30-algo-esta-haciendo-mal-google.jpg
+"<!-- published": false -->
 ---
-
 
 Hace poco estaba conversando con un compañero del [Google Developer Group][gdg_managua] (Hola [Oscar!][oscar_mcm]), sobre las nuevas herramientas y tecnologías de los geeks del Montain View. Haciendo un repaso de sus últimos proyectos me quedó la sensación de que algo estan haciendo mal.
 
